@@ -1,0 +1,42 @@
+# Build outputs
+*.o
+*.ko
+*.cmd
+*.d
+*.a
+*.so
+*.mod
+*.mod.c
+*.order
+*.symvers
+
+# Kernel build trees/artifacts
+kernel/*/build/
+kernel/*/src/
+kernel/*/artifacts/
+
+# Driver generated integration trees/artifacts
+driver/artifacts/
+driver/build/
+
+# Rootfs/QEMU generated state
+rootfs/work/
+qemu/work/
+
+# Research output
+artifacts/corpus/
+artifacts/crashes/
+artifacts/repros/
+artifacts/triage/
+
+# Logs
+logs/*.log
+logs/diagnostics-*/
+logs/setup-*
+logs/build-report-*
+
+# Local environment/secrets
+.env
+.env.*
+*.key
+*.token

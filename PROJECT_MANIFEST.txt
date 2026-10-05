@@ -1,0 +1,7 @@
+Mali Kbase r54p0 Research Lab
+Primary baseline: Linux 6.6 LTS
+Generated scaffold: complete project structure for integration with the actual mali_lab repository.
+
+NOTE: This archive intentionally does not fabricate the bundled r54p0 source archive,
+Linux kernel source, or repository-specific compatibility patch contents. The setup
+script validates and uses those real integration assets when present.
